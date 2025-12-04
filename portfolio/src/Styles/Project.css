@@ -1,0 +1,62 @@
+.Project {
+  box-sizing: border-box;
+}
+
+.Project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  color: var(--text);
+}
+
+.Project-header a{
+  color: var(--accent);
+  text-decoration: none;}
+
+.Project-container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+}
+
+.Solid-line {
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: transparent;
+  border: 0.1px solid #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  /* padding: 15px; */
+}
+
+.card h3,
+.card p {
+    color: var(--text);
+    padding: 15px 20px;
+    border: 0.1px solid #ffffff;
+    margin: 0;
+}
+
+.card h3 {
+  font-size: 1.125rem;
+}
+
+.card p {
+  font-size: 0.875rem;
+}
+
+.card img {
+  border: 0.1px solid #FFFFFF;
+  width: 100%;
+  height: auto;
+}
+
+/* card */

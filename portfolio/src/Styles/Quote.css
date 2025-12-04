@@ -1,0 +1,43 @@
+/* GENERAL SECTION STYLES */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+/* QUOTES BOX */
+.random-quotes {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--text);
+    text-align: center;
+    padding: 4rem 1rem;
+    border: solid 1px var(--accent);
+    border-radius: var(--radius);
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: fit-content;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.quote-text {
+    /* Styles for the main quote text */
+    font-size: 1rem;
+    margin-bottom: 0.5rem; /* Space before the author */
+    font-style: italic;
+    color: var(--text);
+}
+
+.quote-author {
+    /* Styles for the author */
+    font-size: 0.8rem;
+    align-self: flex-end; /* Pushes the author to the right */
+    margin-top: 0.5rem;
+    color: var(--accent);
+}
